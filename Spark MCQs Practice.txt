@@ -24,3 +24,5 @@ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
 sudo yum install mysql-server -y
 sudo service mysqld start
 sudo systemctl enable mysqld
+
+JUST FOR PRACTICE
