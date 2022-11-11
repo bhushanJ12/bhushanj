@@ -1,0 +1,26 @@
+rds
+create db
+standard db
+mqsql
+engine - 5.7.40
+free tier
+user - dbinstan_bhushan
+pass - dbinstan_bhushan
+
+DB name : mysqldbinstances_bhushan
+
+
+DB instance identifier : mysqldbinstances-bhushan
+
+#!/bin/bash
+yum install httpd php php-mysql git -y
+yum update -y
+service httpd start
+chkconfig httpd on
+cd /var/www/html
+git clone https://github.com/aws-training/rdslab.git
+sudo wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+sudo yum install mysql-server -y
+sudo service mysqld start
+sudo systemctl enable mysqld

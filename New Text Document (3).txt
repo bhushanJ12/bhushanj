@@ -1,0 +1,14 @@
+retaildbbucket-bhushan/retail_db-main/
+
+
+git config --global user.name "Bhushan Jaisinghani"
+git config --global user.email “bhushu72@gmail.com"
+
+
+https://github.com/bhushanJ12/myproject-bhushan.git
+
+
+git remote set-url origin
+
+
+https://bhushanJ12@github.com/ncnallan/myrepo.git
